@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ClientManager.src.Controllers.ClienteController",
+    "Method": "AddAsync",
+    "RelativePath": "api/Cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ClientManager.src.DTOs.CreateClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
