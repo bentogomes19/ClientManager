@@ -1,43 +1,65 @@
 using ClientManager.src.Infrastructure;
+using ClientManager.src.Interfaces;
+using ClientManager.src.Repositories;
+using ClientManager.src.Services;
 using Microsoft.EntityFrameworkCore;
+using ClientManager.src.Middlewares;
+using Newtonsoft.Json;
+using Microsoft.AspNetCore.Mvc;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-// CONFIGURA«√O DO DATABASE CONTEXT
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AplicationDbContext>(options =>
-    options.UseSqlServer(connectionString));
-
-// CONFIGURA«√O DE CORS
-builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
+namespace ClientManager; 
+public class Program
 {
-    policy
-    .AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyMethod();
-}));
+    public static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
+        // CONFIGURA√á√ÉO DO DATABASE CONTEXT
+        builder.Services.AddDbContext<AplicationDbContext>(options =>
+            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+        // CONFIGURA√á√ÉO DE CORS
+        builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
+        {
+            policy
+                .AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        }));
 
-var app = builder.Build();
+        builder.Services.AddControllers().AddNewtonsoftJson(options =>
+        {
+            options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+        });
 
-// Configure the HTTP request pipeline.
-// CONFIGURA«√O DO SWAGGER
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
+
+        // INJE√á√ÉO DE DEPEND√äNCIA
+        builder.Services.AddScoped<ClienteService>();
+        builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+
+        builder.Services.AddHttpContextAccessor();
+
+        builder.Services.Configure<ApiBehaviorOptions>(options =>
+        {
+            options.SuppressModelStateInvalidFilter = true;
+        });
+
+        var app = builder.Build();
+
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+
+        app.UseRouting();
+        app.UseCors();
+        app.UseMiddleware<ExceptionHandlingMiddleware>();
+        app.UseAuthorization(); 
+        app.MapControllers();
+
+        app.Run();
+    }
 }
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

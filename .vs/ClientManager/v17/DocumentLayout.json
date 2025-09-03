@@ -1,30 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\",
+  "WorkspaceRootPath": "C:\\Users\\bento\\Projects\\ClientManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\source\\repos\\clientmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\dtos\\base\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\dtos\\base\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\exceptions\\requestvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\exceptions\\requestvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\attributes\\datemaxtoday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\attributes\\datemaxtoday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\source\\repos\\clientmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\source\\repos\\clientmanager\\src\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\source\\repos\\clientmanager\\src\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\dtos\\utilsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\dtos\\utilsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\source\\repos\\clientmanager\\src\\infrastructure\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\infrastructure\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\source\\repos\\clientmanager\\src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\attributes\\cpfattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\attributes\\cpfattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,81 +74,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "src\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "src\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T19:18:09.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteDto.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\DTOs\\ClienteDto.cs",
-              "RelativeDocumentMoniker": "src\\DTOs\\ClienteDto.cs",
-              "ToolTip": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\DTOs\\ClienteDto.cs",
-              "RelativeToolTip": "src\\DTOs\\ClienteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:09:50.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\Infrastructure\\AplicationDbContext.cs",
-              "RelativeDocumentMoniker": "src\\Infrastructure\\AplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\Infrastructure\\AplicationDbContext.cs",
-              "RelativeToolTip": "src\\Infrastructure\\AplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BaseDto.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\Base\\BaseDto.cs",
+              "RelativeDocumentMoniker": "src\\DTOs\\Base\\BaseDto.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\Base\\BaseDto.cs",
+              "RelativeToolTip": "src\\DTOs\\Base\\BaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T18:08:03.07Z",
+              "WhenOpened": "2025-09-03T02:34:32.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "src\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\src\\Models\\Cliente.cs",
-              "RelativeToolTip": "src\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "src\\Controllers\\ClienteController.cs",
+              "ToolTip": "src/Controllers/ClienteController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T17:54:25.547Z",
+              "OverriddenGroupName": "src\\Controllers",
+              "OverriddenToolTip": "src/Controllers/ClienteController.cs",
+              "WhenOpened": "2025-09-03T01:36:26.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DateMaxtoDay.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Attributes\\DateMaxtoDay.cs",
+              "RelativeDocumentMoniker": "src\\Attributes\\DateMaxtoDay.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Attributes\\DateMaxtoDay.cs",
+              "RelativeToolTip": "src\\Attributes\\DateMaxtoDay.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:32:21.085Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UtilsDto.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\UtilsDto.cs",
+              "RelativeDocumentMoniker": "src\\DTOs\\UtilsDto.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\UtilsDto.cs",
+              "RelativeToolTip": "src\\DTOs\\UtilsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "src\\DTOs",
+              "WhenOpened": "2025-09-03T01:28:26.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "src\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "src\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:13:11.43Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-02T17:46:18.859Z",
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "src\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "src\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "src\\Repositories",
+              "WhenOpened": "2025-09-03T01:06:24.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CpfAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Attributes\\CpfAttribute.cs",
+              "RelativeDocumentMoniker": "src\\Attributes\\CpfAttribute.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Attributes\\CpfAttribute.cs",
+              "RelativeToolTip": "src\\Attributes\\CpfAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "src\\Attributes",
+              "WhenOpened": "2025-09-03T01:04:58.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "src\\DTOs\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\ClienteDto.cs",
+              "RelativeToolTip": "src\\DTOs\\ClienteDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "src\\DTOs",
+              "WhenOpened": "2025-09-03T00:58:17.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "src\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "src/Exceptions/NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "src\\Exceptions",
+              "OverriddenToolTip": "src/Exceptions/NotFoundException.cs",
+              "WhenOpened": "2025-09-03T00:55:52.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\08127451169\\source\\repos\\ClientManager\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Services\\ClienteService.cs",
+              "RelativeToolTip": "src\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T17:46:17.653Z",
+              "OverriddenGroupName": "src\\Services",
+              "WhenOpened": "2025-09-03T00:58:45.929Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:08:48.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:09:53.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Exceptions\\RequestValidationException.cs",
+              "RelativeDocumentMoniker": "src\\Exceptions\\RequestValidationException.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Exceptions\\RequestValidationException.cs",
+              "RelativeToolTip": "src\\Exceptions\\RequestValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:27:35.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "src\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "src/Exceptions/BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "src\\Exceptions",
+              "OverriddenToolTip": "src/Exceptions/BadRequestException.cs",
+              "WhenOpened": "2025-09-03T00:56:08.08Z"
             }
           ]
         }
