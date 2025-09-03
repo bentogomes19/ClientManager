@@ -2,7 +2,6 @@
 using ClientManager.src.DTOs.Base;
 using ClientManager.src.Models;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ClientManager.src.DTOs;
 
