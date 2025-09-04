@@ -74,10 +74,14 @@ Instale a ferramenta dotnet-ef (se ainda não tiver):
 dotnet tool install --global dotnet-ef
 ```
 
-Crie a migration inicial e atualize o banco:
+(Opcional) Crie a migration inicial:
 
 ```bash
 dotnet ef migrations add InitialCreate
+```
+
+Atualize o banco de dados:
+```bash
 dotnet ef database update
 ```
 
@@ -112,9 +116,6 @@ http://localhost:5156/swagger
 - **Swagger não abre:**
 
   - Confirme a URL usada em `dotnet run --urls` e acesse `http://localhost:5000/swagger`.
-
-- **CORS no frontend:**
-  - Habilite CORS na API para `http://localhost:5173`.
 
 ## 📝 Observações
 
