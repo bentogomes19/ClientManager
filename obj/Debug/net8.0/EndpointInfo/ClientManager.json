@@ -220,6 +220,10 @@
             "type": "string",
             "format": "date"
           },
+          "dataCadastro": {
+            "type": "string",
+            "format": "date-time"
+          },
           "rendaFamiliar": {
             "minimum": 0,
             "type": "number",
@@ -249,6 +253,10 @@
           "dataNascimento": {
             "type": "string",
             "format": "date"
+          },
+          "dataCadastro": {
+            "type": "string",
+            "format": "date-time"
           },
           "rendaFamiliar": {
             "minimum": 0,

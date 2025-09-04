@@ -34,6 +34,7 @@ public class Cliente
         Cpf = dto.Cpf;
         DataNascimento = dto.DataNascimento;
         RendaFamiliar = dto.RendaFamiliar;
+        DataCadastro = dto.DataCadastro;
     }
 
     public void UpdateCliente(UpdateClienteDto dto)

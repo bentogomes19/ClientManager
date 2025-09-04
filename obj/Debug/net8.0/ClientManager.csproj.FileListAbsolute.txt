@@ -379,4 +379,3 @@ C:\Users\08127451169\Desktop\project\ClientManager\obj\Debug\net8.0\refint\Clien
 C:\Users\08127451169\Desktop\project\ClientManager\obj\Debug\net8.0\ClientManager.pdb
 C:\Users\08127451169\Desktop\project\ClientManager\obj\Debug\net8.0\ClientManager.genruntimeconfig.cache
 C:\Users\08127451169\Desktop\project\ClientManager\obj\Debug\net8.0\ref\ClientManager.dll
-C:\Users\08127451169\Desktop\project\ClientManager\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

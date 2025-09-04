@@ -19,6 +19,8 @@ public class CreateClienteDto : BaseDto
     [DateMaxtoDay("1900-01-01", ErrorMessage = "A data deve estar entre 1900-01-01 e hoje")]
     public DateOnly DataNascimento { get; set; }
 
+    public DateTime DataCadastro { get; set; } = DateTime.Now;
+
     [Range(0, double.MaxValue, ErrorMessage = "A Renda Familiar deve ser um valor positivo.")]
     public decimal RendaFamiliar { get; set; }
 
@@ -34,6 +36,8 @@ public class ClienteResponseDto
     public string Cpf { get; set; } = string.Empty;
     public DateOnly DataNascimento { get; set; }
     public decimal RendaFamiliar { get; set; }
+
+    public DateTime DataCadastro { get; set; } = DateTime.Now;
     public ClienteResponseDto()
     {
 
@@ -45,6 +49,7 @@ public class ClienteResponseDto
         this.Cpf = cliente.Cpf;
         this.DataNascimento = cliente.DataNascimento;
         this.RendaFamiliar = cliente.RendaFamiliar;
+        this.DataCadastro = cliente.DataCadastro;
     }
 }
 
