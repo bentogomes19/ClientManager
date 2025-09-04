@@ -51,7 +51,7 @@ public class ClienteService(IClienteRepository repository)
 
     public async Task<ClienteResponseDto> UpdateAsync(Guid id, UpdateClienteDto dto, CancellationToken ct)
     {
-        var cliente = await _repository.GetByIdAsync(id, ct) ?? throw new NotFoundException("Cliente não encontrado.");
+        var cliente = await _repository.GetByIdAsync(id, ct) ?? throw new NotFoundException("Cliente nao encontrado.");
         dto.Validate();
 
         dto.Cpf = Regex.Replace(dto.Cpf, @"[^\d]", "");

@@ -39,7 +39,7 @@ public class ExceptionHandlingMiddleware(RequestDelegate next)
                 break;
             case RequestValidationException:
                 statusCode = (int)HttpStatusCode.UnprocessableEntity;
-                message = "Ocorreram erros de validação: " + exception.Message;
+                message = "Ocorreram erros de validacao: " + exception.Message;
                 break;
             default:
                 statusCode = (int)HttpStatusCode.InternalServerError;

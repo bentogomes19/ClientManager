@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\",
+  "WorkspaceRootPath": "C:\\Users\\bento\\Projects\\ClientManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\desktop\\project\\clientmanager\\src\\validators\\cpfvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\validators\\cpfvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\validators\\cpfvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\desktop\\project\\clientmanager\\src\\attributes\\cpfattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\attributes\\cpfattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\attributes\\cpfattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\desktop\\project\\clientmanager\\src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\bento\\projects\\clientmanager\\src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:src\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|c:\\users\\08127451169\\desktop\\project\\clientmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1F65621A-A2DA-47CD-99E1-A6A6BE09AD03}|ClientManager.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CpfValidator.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\src\\Validators\\CpfValidator.cs",
-              "RelativeDocumentMoniker": "src\\Validators\\CpfValidator.cs",
-              "ToolTip": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\src\\Validators\\CpfValidator.cs",
-              "RelativeToolTip": "src\\Validators\\CpfValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "src\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T18:19:29.541Z",
+              "WhenOpened": "2025-09-04T00:47:21.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CpfAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\src\\Attributes\\CpfAttribute.cs",
-              "RelativeDocumentMoniker": "src\\Attributes\\CpfAttribute.cs",
-              "ToolTip": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\src\\Attributes\\CpfAttribute.cs",
-              "RelativeToolTip": "src\\Attributes\\CpfAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Services\\ClienteService.cs",
+              "RelativeToolTip": "src\\Services\\ClienteService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T18:19:35.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-03T18:11:48.972Z",
+              "WhenOpened": "2025-09-04T00:47:00.694Z",
               "EditorCaption": ""
             },
             {
@@ -73,16 +68,53 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CpfValidator.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Validators\\CpfValidator.cs",
+              "RelativeDocumentMoniker": "src\\Validators\\CpfValidator.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Validators\\CpfValidator.cs",
+              "RelativeToolTip": "src\\Validators\\CpfValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T18:19:29.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CpfAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Attributes\\CpfAttribute.cs",
+              "RelativeDocumentMoniker": "src\\Attributes\\CpfAttribute.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\Attributes\\CpfAttribute.cs",
+              "RelativeToolTip": "src\\Attributes\\CpfAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T18:19:35.229Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T18:11:48.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ClienteDto.cs",
-              "DocumentMoniker": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\src\\DTOs\\ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\ClienteDto.cs",
               "RelativeDocumentMoniker": "src\\DTOs\\ClienteDto.cs",
-              "ToolTip": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\src\\DTOs\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\bento\\Projects\\ClientManager\\src\\DTOs\\ClienteDto.cs",
               "RelativeToolTip": "src\\DTOs\\ClienteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T18:10:27.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T18:10:27.209Z"
             }
           ]
         }

@@ -4597,23 +4597,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\08127451169\\.nuget\\packages\\": {},
+    "C:\\Users\\bento\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\ClientManager.csproj",
+      "projectUniqueName": "C:\\Users\\bento\\Projects\\ClientManager\\ClientManager.csproj",
       "projectName": "ClientManager",
-      "projectPath": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\ClientManager.csproj",
-      "packagesPath": "C:\\Users\\08127451169\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\08127451169\\Desktop\\project\\ClientManager\\obj\\",
+      "projectPath": "C:\\Users\\bento\\Projects\\ClientManager\\ClientManager.csproj",
+      "packagesPath": "C:\\Users\\bento\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bento\\Projects\\ClientManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\08127451169\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bento\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
